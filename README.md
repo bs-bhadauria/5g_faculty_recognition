@@ -46,7 +46,7 @@ Although currently tested on static images, the architecture is designed to be e
 
 ## 📂 Project Structure
 
-
+```
 5g_faculty_recognition/
 │
 ├── dataset/
@@ -59,7 +59,7 @@ Although currently tested on static images, the architecture is designed to be e
 ├── embeddings.npy
 ├── requirements.txt
 └── README.md
-
+```
 
 ---
 
@@ -87,6 +87,8 @@ python build_embeddings.py
 Run recognition:
 
 python recognize_static.py
+
+
 🔮 Future Scope
 
 Integration with 5G-enabled RTSP IP cameras
@@ -97,9 +99,11 @@ Federated Learning–based decentralized model training
 
 Smart attendance & automated lab monitoring
 
+
 🎓 Academic Note
 
 This project is developed for educational and research purposes to explore computer vision and smart surveillance systems in 5G-enabled environments.
+
 
 📜 License
 
